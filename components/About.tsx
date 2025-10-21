@@ -58,7 +58,7 @@ const About = () => {
             </h3>
             <div className="space-y-4 text-gray-600 dark:text-gray-300 text-lg">
               <p>
-                With <span className="font-semibold text-primary-600 dark:text-primary-400">1.5 years of hands-on experience</span>, 
+                With <span className="font-semibold text-primary-600 dark:text-primary-400">1.6 years of hands-on experience</span>, 
                 I specialize in designing and implementing real-time data streaming pipelines and cloud-based data lakes.
               </p>
               <p>

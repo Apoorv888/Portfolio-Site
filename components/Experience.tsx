@@ -65,11 +65,13 @@ const Experience = () => {
               initial={{ opacity: 0, y: 50 }}
               animate={isInView ? { opacity: 1, y: 0 } : {}}
               transition={{ duration: 0.6, delay: index * 0.3 }}
-              className={`relative mb-16 ${
-                index % 2 === 0 ? 'md:pr-1/2' : 'md:pl-1/2 md:ml-auto'
-              }`}
+              className="relative mb-16"
             >
-              <div className={`md:w-1/2 ${index % 2 === 0 ? 'md:pr-12' : 'md:pl-12'}`}>
+              <div className={`md:w-1/2 ${
+                index % 2 === 0 
+                  ? 'md:mr-auto md:pr-12' 
+                  : 'md:ml-auto md:pl-12'
+              }`}>
                 <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition-shadow">
                   {/* Header with gradient */}
                   <div className={`bg-gradient-to-r ${exp.color} p-6 text-white`}>
