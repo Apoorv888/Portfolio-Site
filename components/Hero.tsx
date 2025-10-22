@@ -2,7 +2,7 @@
 
 import { motion } from 'framer-motion';
 import { TypeAnimation } from 'react-type-animation';
-import { FaGithub, FaLinkedin, FaEnvelope, FaPhone } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaEnvelope, FaPhone, FaFileDownload } from 'react-icons/fa';
 import { Moon, Sun } from 'lucide-react';
 import { useState, useEffect } from 'react';
 
@@ -100,6 +100,15 @@ const Hero = () => {
             transition={{ duration: 0.5, delay: 0.6 }}
             className="flex flex-wrap gap-6 justify-center items-center mb-12"
           >
+            <a
+              href="https://drive.google.com/file/d/1uTN4OsXDqhADafMZhyudN4y7ZIIa9cKL/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-purple-600 to-pink-600 text-white rounded-full hover:from-purple-700 hover:to-pink-700 transition-all transform hover:scale-105 shadow-lg"
+            >
+              <FaFileDownload className="text-xl" />
+              <span>Download Resume</span>
+            </a>
             <a
               href="https://github.com/apoorvachandanshive"
               target="_blank"
