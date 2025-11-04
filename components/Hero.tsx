@@ -110,7 +110,7 @@ const Hero = () => {
               <span>Download Resume</span>
             </a>
             <a
-              href="https://github.com/apoorvachandanshive"
+              href="https://github.com/Apoorv888"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 px-6 py-3 bg-gray-900 dark:bg-gray-700 text-white rounded-full hover:bg-gray-800 dark:hover:bg-gray-600 transition-all transform hover:scale-105 shadow-lg"
